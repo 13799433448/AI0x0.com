@@ -11,7 +11,7 @@ import Home from '../../pages/Home';
 
 import { isHeroPageSel, useSiteStore } from 'dumi-theme-antd-style/dist/store';
 import { GlobalStyle } from './styles';
-
+// 测试
 const DocLayout: FC = memo(() => {
   const intl = useIntl();
   const { hash } = useLocation();
